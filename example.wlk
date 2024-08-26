@@ -7,7 +7,7 @@ object pepita {
 	}
 	
 	method volar(distancia){
-		energia -= 10 - distancia
+		energia = energia - 10 - distancia
 	}
 	
 	method energia(){
@@ -43,7 +43,7 @@ object manzana {
 	}
 	
 	method energiaQueAporta(){
-		base * madurez
+		return base * madurez
 	}
 }
 
